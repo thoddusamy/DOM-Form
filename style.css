@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(247, 255, 247);
+}
+
 .heading {
     padding: 0;
 }
@@ -28,4 +32,20 @@
 button:active {
     transform: scale(0.95);
     transition: 0.5s;
+}
+
+tbody>tr:hover {
+    background-color: gray;
+}
+
+input[type=text],
+[type=number],
+[type=radio],
+[type=checkbox] {
+    background-color: rgb(247, 255, 247);
+}
+
+input[type=text]:focus,
+[type=number]:focus {
+    background-color: rgb(247, 255, 247);
 }
