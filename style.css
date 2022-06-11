@@ -35,7 +35,7 @@ button:active {
 }
 
 tbody>tr:hover {
-    background-color: gray;
+    background-color: rgb(242, 242, 242);
 }
 
 input[type=text],
